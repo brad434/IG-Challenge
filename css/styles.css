@@ -1,0 +1,197 @@
+body {
+    font-family: 'Nunito Sans', 'Paytone One', sans-serif;
+    background-color: rgb(238, 10, 10);
+    background-image: url(/img/pngwing.com\ \(8\).png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+/* main {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 80vw;
+    position: fixed;
+    right: 250px; 
+} */
+.logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.hamburger {
+    margin: 20px;
+    position: relative;
+    left: -20px;
+}
+
+.mainImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 100px;
+    width: 700px;
+}
+
+h1 {
+    position:relative;
+    left: 15rem;
+    top:200px;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    width: 450px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 10%;
+}
+
+h3 {
+    position:relative;
+    top: 200px;
+    left: 15rem;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+/* .buy {
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 240px;
+    width: 100px;
+    height: 30px;
+    background-color: royalblue;
+    border-radius: 50 0 50 0;
+} */
+
+
+/* ------------------- SideNav ------------------------------------ */
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: rgb(238, 10, 10);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    display: block;
+    padding: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 150px;
+    margin: 20px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.sidenav a:hover {
+    color: silver;
+}
+
+
+/* ----------------------------- CardSet ------------------------------- */
+.cardset {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrow{
+    height: 100px;
+    display: flex;
+    /* padding-left: 1300px; */
+}
+
+.arrowTwo{
+    height: 100px;
+    display: flex;
+    padding-right: 450px;
+    transform: rotate(180deg);
+}
+.card-container {
+    /* height: 100px; */
+    /* display: flex; */
+    position: relative;
+    bottom: 90px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* justify-content:center; */
+}
+
+.card {
+    height: 100px;
+    display: flex;
+    /* border: 1px solid yellow; */
+    margin: 0 70px;
+    background-color: #d31e3f;
+    border-radius: 10%;
+    width: 250px;
+    
+    /* display: inline-block; */
+    /* width: 10%; */
+    /* margin: 20px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* width: 10%; */
+    /* border-radius: 5px; */
+    /* border: 1px yellow solid; */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* transition: 0.3s; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px 0; */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardImg {
+    border-radius: 5px 5px 0 0;
+    height: 100%;
+}
+
